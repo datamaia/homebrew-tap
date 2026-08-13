@@ -4,22 +4,22 @@ cask "andromeda" do
 
   on_macos do
     on_intel do
-      sha256 "dcc28d6bf26db82e423157af87601736e1099be1c0105788c0cd23f4016a8296"
+      sha256 "f9231cddca3f59c6391aa09a6f738d334f33c7ef2abfa778b502a06c920870c9"
       url "https://github.com/datamaia/andromeda/releases/download/v#{version}/andromeda_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "1e546916c65853ce672ed732629b974b21c51086bf1ee0905de9736ac3e241bd"
+      sha256 "065b314c2198d959689a7e4c7910d6c415cf519790e1ea813ccb8b6bb02cb236"
       url "https://github.com/datamaia/andromeda/releases/download/v#{version}/andromeda_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "7c7154b2d8a3002e47c729df08a34f542a648e576ceeab32d775836e294aa4bb"
+      sha256 "4cfda41a1b4a8616e4cd1e86a9171dadce90886c9b2efa997ed6f1c6689db3c7"
       url "https://github.com/datamaia/andromeda/releases/download/v#{version}/andromeda_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b353cf0971f7bec8410b32a83fd0a5ab0c7ac72017ee77bd471cb292cbb967e1"
+      sha256 "8ba3da102a881ed311ce275560cf6f4bc8c075b286b3047e08bb78d104fcdac3"
       url "https://github.com/datamaia/andromeda/releases/download/v#{version}/andromeda_#{version}_linux_arm64.tar.gz"
     end
   end
